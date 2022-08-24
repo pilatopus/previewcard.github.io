@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="w-screen h-screen flex justify-center items-center bg-cream">
+<div class="box md:flex sm:w-80 md:w-36 bg-white rounded-xl overflow-hidden">
+  <div class="left md:w-1/2">
+    <img class="overflow-hidden hidden md:block" src="images/image-product-desktop.jpg" alt="">
+    <img class=" md:hidden overflow-hidden" src="images/image-product-mobile.jpg" alt="">
+  </div>
+  
+  <div class="right md:w-2/5 m-6">
+
+<div class="light uppercase font-montserrat text-xs text-darkGrayinshBlue tracking-widest mb-4">
+  perfume
+</div>
+    <div class="title md:w-4/5 font-fraunces font-bold text-3xl text-veryDarkBlue mb-6">
+  Gabrielle Essence Eau De Parfum
+    </div>
+  <div class="content font-montserrat text-sm font-normal text-darkGrayinshBlue mb-6">
+  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
+</div>
+
+<div class="price flex items-center">
+ <span class="text-3xl font-bold font-fraunces text-darkCyan"> $149.99 </span>
+ <span class="line-through text-darkGrayinshBlue ml-6 text-sm"> $169.99 </span>
+</div>
+  
+
+<div class="button bg-darkCyan flex justify-center items-center text-white font-montserrat text-sm font-semibold p-3 rounded-lg mt-6 cursor-pointer hover:bg-darkCyanBtn">
+  <i class="mr-3"><img src="images/icon-cart.svg" alt=""></i>
+  Add to Cart
+</div>
+
+</div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+</div>
+</body>
+</html>
